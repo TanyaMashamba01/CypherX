@@ -6,7 +6,7 @@ const moment = require('moment-timezone');
 const MEMORY_LIMIT = 250; // MB
 const RESTART_DELAY = 3000; // ms
 
-const TIMEZONE = "Africa/Nairobi";
+const TIMEZONE = "Africa/Gweru";
 
 function getLogFileName() {
   return `${moment().tz(TIMEZONE).format('YYYY-MM-DD')}.log`;
