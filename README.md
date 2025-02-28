@@ -37,7 +37,7 @@
 ## `DEPLOYMENTS`
 
   <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/Dark-Xploit/CypherX" target="_blank" style="margin-right: 10px;">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/TanyaMashamba01/CypherX" target="_blank" style="margin-right: 10px;">
     <img alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
   </a>
   <a href="https://repl.it/github/Dark-Xploit/CypherX" target="_blank">
