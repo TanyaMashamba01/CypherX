@@ -2,7 +2,7 @@
   "name": "CypherX",
   "version": "1.2.5",
   "description": "CypherX, the best WhatsApp Bot",
-  "logo": "https://i.ibb.co/Q4QCHYd/copilot-image-1739572393172.jpg",
+  "logo": "https://files.catbox.moe/tmtn0f.jpeg",
   "keywords": ["whatsapp", "bot", "md"],
   "repository": "https://github.com/Dark-Xploit/CypherX",
   "stack": "container",
@@ -17,27 +17,27 @@
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "CypherX",
-      "required": false
+      "value": "MidKing",
+      "required": true
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here, starting with country code E.g 2547xxxxxxxx",
-      "value": "",
+      "value": "26371672xxxx",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "",
+      "value": "MidKing",
       "required": true
     },
     "STICKER_PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "Cypher",
+      "value": "Mid",
       "required": false
     },
     "STICKER_AUTHOR_NAME": {
       "description": "Sticker author name",
-      "value": "X",
+      "value": "King",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -52,32 +52,32 @@
     },
     "BOT_PREFIX": {
       "description": "Enter your desired prefix here",
-      "value": ".",
+      "value": "$",
       "required": true
     },
     "MODE": {
       "description": "Set 'private' to enable private mode, 'public' to enable public mode, 'group' to enable only group and 'pm' to enable only private chats",
       "value": "public",
-      "required": false
+      "required": true
     },
     "ANTIDELETE": {
       "description": "Set 'private' to send deleted messages to message yourself, 'chat' to current chat and 'off' to disable'",
-      "value": "private",
-      "required": false
+      "value": "public",
+      "required": true
     },
      "ANTI_EDIT": {
       "description": "Set 'private' to send edited messages to message yourself, 'chat' to current chat and 'off' to disable'",
-      "value": "private",
-      "required": false
+      "value": "public",
+      "required": true
     },
     "ALWAYS_ONLINE": {
       "description": "Set true to make the bot online 24/7 or set false to disable always online'",
       "value": "true",
-      "required": true
+      "required": false
     },
     "AUTO_STATUS_VIEW": {
       "description": "Set true to enable and false to disable auto status view",
-      "value": "true",
+      "value": "false",
       "required": false
     },
     "AUTO_STATUS_REACT": {
@@ -92,7 +92,7 @@
     },
     "CHATBOT": {
       "description": "Set true to enable and false to disable auto reply chatbot",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "ANTI_CALL": {
@@ -107,12 +107,12 @@
     },
     "TIMEZONE": {
       "description": "Enter your timezone here. Google or don't edit if you don't know!",
-      "value": "Africa/Nairobi",
-      "required": false
+      "value": "Africa/Gweru",
+      "required": true
     },
     "SUDO": {
       "description": " Type additional allowed users here. They'll be able to use all the functions of the bot without restrictions. Separate with comma incase of more than one number.",
-      "value": "2547xxxxxxxxx,263xxxxxxxxxx",
+      "value": "26371672xxxx,263xxxxxxxxxx",
       "required": false
     },
     "AUTO_READ": {
