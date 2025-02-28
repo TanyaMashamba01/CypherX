@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const moment = require('moment-timezone');
 
-const MEMORY_LIMIT = 250; // MB
+const MEMORY_LIMIT = 300; // MB
 const RESTART_DELAY = 3000; // ms
 
 const TIMEZONE = "Africa/Gweru";
