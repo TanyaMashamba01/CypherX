@@ -19,37 +19,37 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~WjoGzSiJ#hjvbmMd0wxKuVLB-9FJQO0tkiKKKZsj6qJwR1hiRnQc' 
 // You know the drill. Put your CypherX session id here. Should look like: XPLOADER-BOT:~ (don't forget that, it's crucial!)
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'Joshuamambo NetKing' 
 // Pick a name for the bot. Default is "CypherX" — but who doesn’t love a cool bot name?
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '263716729222' 
 // Your personal contact number. If you want to call Tylor, this is the number. 👀
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'Joshuamambo Netking' 
 // Set your name, currently it's the mastermind's. The one and only... Tylor. (Don't ask how I got here, it's a mystery.)
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "MidKing" 
 // Time to decide the name for your sticker pack. This will appear every time you create a sticker. "Cypher" is the default because... well, why not?
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "X" 
+global.author = process.env.STICKER_AUTHOR_NAME || "XKING" 
 // Who's the artist behind those epic stickers? You, of course! Unless you're just using the default name "X" – mystery vibes!
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Africa/Gweru" 
 // The bot is time-traveling. Set the timezone correctly. Trust us, you don't want the bot to get confused. 🕒
 
 //--------------[ POSTGRES DATABASE ]----------------//
@@ -64,7 +64,7 @@ global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "©CypherX is on fire!🔥"
+global.wm = process.env.GL_WM || "©Joshuamambo1 is on fire!🔥"
 // Add a watermark finished tasks because... every masterpiece needs a signature.
 
 //---------------------[ REPLIES ]-----------------------//
