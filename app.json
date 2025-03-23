@@ -17,28 +17,28 @@
   "env": {
     "SESSION_ID": {
       "description": "Enter your CypherX session id here; must start with XPLOADER-BOT:~ (Yes, it's like a secret agent code. Don’t mess it up!)",
-      "value": "",
-      "required": false
+      "value": "XPLOADER-BOT:~WjoGzSiJ#hjvbmMd0wxKuVLB-9FJQO0tkiKKKZsj6qJwR1hiRnQc",
+      "required": true
     },
     "BOT_NAME": {
       "description": "Enter your bot name here (CypherX is cool, but feel free to name it something quirky!)",
-      "value": "CypherX",
-      "required": false
+      "value": "Joshuamambo NetKing",
+      "required": true
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here, starting with country code (e.g., 2547xxxxxxxx, because even bots need to know how to reach you!)",
-      "value": "",
+      "value": "263716729222",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter your name here (Who’s the boss behind the scenes? Spoiler: It's you!)",
-      "value": "",
+      "value": "Joshuamambo NetKing",
       "required": true
     },
     "TIMEZONE": {
       "description": "Enter your timezone here. Google it or just leave it if you don't know! (The bot won’t mind, but you should be in sync with time zones!)",
-      "value": "Africa/Nairobi",
-      "required": false
+      "value": "Africa/Gweru",
+      "required": true
     }
  },
   "buildpacks": [
